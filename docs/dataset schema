@@ -1,0 +1,67 @@
+The original dataset cannot be shared due to NDA restrictions.
+
+## ID and Time
+
+- **employee_id** – anonymized employee identifier  
+- **year_month** – observation month (YYYY-MM)  
+- **time_t** – months since hire  
+- **event** – turnover or counteroffer event  
+
+## Demographics
+
+- **age** – employee age  
+- **region** – employee region  
+
+## Organization
+
+- **position_family** – job family  
+- **profession** – profession  
+- **tenure_bucket** – tenure category (<6m / 6–12m / 1–3y / 3y–5y / >10y)
+
+## Compensation
+
+### Base salary and grade
+- **grade** – job grade level  
+- **salary_base** – masked base salary  
+- **compa_ratio_current** – salary relative to grade midpoint  
+- **compa_ratio_target** – target salary ratio  
+
+### Salary dynamics
+- **salary_change_lag1** – salary change vs previous month  
+- **salary_growth_6m** – salary growth over the last 6 months  
+- **raise_last_6m** – indicator that salary increased during the last 6 months  
+- **months_since_raise** – months since last salary increase  
+
+### Bonus structure
+- **bonus_frequency** – bonus payment frequency  
+- **bonus_target_pct** – target bonus as percentage of base salary  
+
+### Hiring and retention incentives
+- **welcome_bonus_flag** – indicator of welcome bonus at hiring  
+- **welcome_bonus_pct_salary** – welcome bonus relative to base salary  
+
+- **retention_bonus_flag** – retention bonus indicator  
+- **retention_bonus_remaining_pct** – remaining unpaid share of retention bonus  
+- **months_to_next_bonus_payment** – months until next retention bonus payment  
+
+- **signon_loan_flag** – hiring loan indicator  
+- **signon_loan_remaining_pct** – remaining share of hiring loan  
+
+## Performance
+
+- **perf_current** – latest performance rating  
+- **perf_previous** – previous performance rating  
+- **perf_days_since** – days since last review  
+- **perf_prev_days_since** – days since previous review
+- **perf_trend_3reviews** – performance trend across last three reviews
+
+## Career
+
+- **time_in_grade_months** – months in current grade  
+- **grade_change_lag1** – grade change vs previous month  
+- **review_number_in_grade** – number of reviews in grade  
+
+## Counteroffers
+
+- **counteroffer_flag** – counteroffer indicator  
+- **high_risk_12m** – risk window after counteroffer  
