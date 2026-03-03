@@ -24,6 +24,9 @@ Therefore this repository contains only the analytical code and documentation re
 ## Repository Structure
 
 notebooks/ – exploratory analysis and modeling experiments
+
 src/ – reusable scripts for data processing and modeling
+
 docs/ – research documentation
+
 results/ – figures and model evaluation outputs
