@@ -5,7 +5,8 @@ The original dataset cannot be shared due to NDA restrictions.
 - **employee_id** – anonymized employee identifier  
 - **year_month** – observation month (YYYY-MM)  
 - **time_t** – months since hire  
-- **event** – turnover or counteroffer event  
+- **turnover_event** 
+- **counteroffer_event**
 
 ## Demographics
 
